@@ -9,4 +9,10 @@ var appTheme = ThemeData(
         letterSpacing: 1.5,
         fontWeight: FontWeight.bold,
       ),
+      headline1: TextStyle(
+        fontWeight: FontWeight.bold,
+      ),
+      subtitle1: TextStyle(
+        color: Colors.grey,
+      ),
     ));
