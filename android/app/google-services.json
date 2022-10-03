@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "150380590880",
+    "project_id": "fireship-db456",
+    "storage_bucket": "fireship-db456.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150380590880:android:afbc1d14158527eae78945",
+        "android_client_info": {
+          "package_name": "oe.catz.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150380590880-qfnongtc9d949cudi9p64vi82t5k347a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "oe.catz.fireapp",
+            "certificate_hash": "ee18c63cb9705ebde2e123b88c11d62a1c4b6413"
+          }
+        },
+        {
+          "client_id": "150380590880-u25j08tlean1i8blso2ml0ngmaq6p93g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpjbNGCa5exrf-T_TTTc7lV4O171PuxFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150380590880-u25j08tlean1i8blso2ml0ngmaq6p93g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
