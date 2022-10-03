@@ -7,6 +7,14 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Center(
+        child: ElevatedButton(
+          child: Text('About'),
+          onPressed: () => Navigator.pushNamed(context, '/about'),
+          style: Theme.of(context).textTheme.button,
+        ),
+      ),
+    );
   }
 }

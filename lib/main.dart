@@ -1,3 +1,5 @@
+import 'package:fireapp/routes.dart';
+import 'package:fireapp/theme.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -34,7 +36,10 @@ class _AppState extends State<App> {
 
         // Once complete, show your application
         if (snapshot.connectionState == ConnectionState.done) {
-          return Text('sss');
+          return MaterialApp(
+            routes: appRoutes,
+            theme: appTheme,
+          );
           // return StreamProvider(
           //   create: (_) => FirestoreService().streamReport(),
           //   catchError: (_, err) => Report(),
