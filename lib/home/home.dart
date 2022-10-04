@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           child: Text('About'),
-          onPressed: () => Navigator.pushNamed(context, '/about'),
+          onPressed: () => Navigator.pushNamed(context, '/topics'),
         ),
       ),
     );
