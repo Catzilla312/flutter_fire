@@ -3,10 +3,6 @@ import 'package:fireapp/theme.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-// import 'package:quizapp/routes.dart';
-// import 'package:quizapp/services/services.dart';
-// import 'package:quizapp/shared/shared.dart';
-// import 'package:quizapp/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -53,7 +49,7 @@ class _AppState extends State<App> {
 
         // // Otherwise, show something whilst waiting for initialization to complete
         // return const MaterialApp(home: LoadingScreen());
-        return Text('sssl');
+        return Text("Hello", textDirection: TextDirection.ltr);
       },
     );
   }
